@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -67,7 +69,33 @@ button {
   cursor: pointer;
 }
 
-.memepic {
-  height: 100%;
+.container {
+  font-family: "Oswald", sans-serif;
+  background-color: #ff0000;
   margin-top: 1rem;
+  max-height: 26rem;
+  position: relative;
+}
+
+.memepic {
+  width: 100%;
+  height: auto;
+  margin-left: 50%;
+}
+
+.text{
+    position: absolute;
+    left: 50%;
+    font-size: 2rem;  
+    color: white;
+    transform: translateX(-50%);
+  
+}
+
+.top {
+  top: 1rem;
+}
+
+.bottom {
+  bottom: 3rem;
 }

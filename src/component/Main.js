@@ -9,7 +9,11 @@ export default function Main(props) {
         <input type="text" placeholder="buttom text" />
         <button onClick={props.handleClick}>Get a new meme image 🖼️</button>
       </div>
-      <img src={props.memeImg} className="memepic" />
+      <div className="container">
+        <img src={props.memeImg} className="memepic" />
+        <p className="text top">top text</p>
+        <p className="text bottom">bottom text</p>
+      </div>
     </main>
   );
 }
