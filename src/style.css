@@ -71,31 +71,34 @@ button {
 
 .container {
   font-family: "Oswald", sans-serif;
-  background-color: #ff0000;
   margin-top: 1rem;
-  max-height: 26rem;
   position: relative;
 }
 
 .memepic {
-  width: 100%;
-  height: auto;
-  margin-left: 50%;
+    max-width: 100%;
+    display: block;
+    margin-left: 50%;
 }
 
 .text{
     position: absolute;
     left: 50%;
+    width: 80%;
     font-size: 2rem;  
+
+    text-align: center;
+    margin: 5px 0;
     color: white;
-    transform: translateX(-50%);
-  
+    transform: translateX(-50%); 
+    -webkit-text-stroke:2px black;
 }
 
+
 .top {
-  top: 1rem;
+  top: 0;
 }
 
 .bottom {
-  bottom: 3rem;
+  bottom: 0;
 }
