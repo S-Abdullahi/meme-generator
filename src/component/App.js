@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 import Main from "./Main";
-import Data from "../memedata";
 
 export default function App() {
   let url;
